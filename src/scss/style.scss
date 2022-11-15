@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../assets/img/logo.web");
+
+}
+ul{
+    list-style: none;
+    li a{
+        text-decoration: none;
+    }
+}
+/* header */
+header{
+    height: 100vh;
+    background-image: url("../assets/img/banner-harley-davison.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    .container_header{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .title_header{
+            width: fit-content;
+            height: fit-content;
+            align-self: end;
+            position: absolute;            
+            background-color: #e8e8e880;
+            margin-left: 5vw;
+            margin-bottom: 10vh;
+            padding: 2rem;
+            
+        
+        }
+        .logo_header{
+            width: fit-content;
+            height: fit-content;
+            img{
+                width: 8rem;
+            }
+        }
+        .nav_header{
+            width: fit-content;
+            height: fit-content;
+            margin-left: auto;
+            padding: 20px;
+            ul{
+                display: flex;
+                .item_nav_header{
+                    margin:5px;
+                    text-transform: uppercase;                      
+                }
+                
+            }
+            
+        }
+    }
+}
+.item_nav_header a{
+    padding: 10px;
+    color: black;
+}
+.item_nav_header a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
