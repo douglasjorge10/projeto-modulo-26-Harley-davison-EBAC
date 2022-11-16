@@ -141,6 +141,56 @@ header{
 }
 }
 }
+/* como funciona */
+.como-funciona .link_ref{
+    display: block;
+    text-align: center;
+    margin: 50px auto -50px;
+    font-size: 1.5rem;
+}
+.container_como-funciona{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2rem;
+    .title_como-funciona{
+    grid-column-start: 1;
+    grid-column-end:  -1;
+    width: 100%;
+    font-size: 2rem;
+}
+    .item_como-funciona{
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 20px auto;
+}
+    .button_vitrine{
+    display: inline-block;
+    width: 90%;
+}
+    .button_vitrine:hover{
+    background-color: #000;
+    color: #fff;
+    cursor:initial;
+}
+}
+}
+/* footer */
+.container_footer p{
+    text-align: center;
+    line-height: 2rem;
+    .link_ref{
+    color: #5b5877;
+}
+    .link_ref:hover {
+    color: #8797f3;
+}
+}
 
 
 
