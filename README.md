@@ -1,5 +1,5 @@
-# Lance Negócios
-Projeto para base de conhecimento de CSS Avançado.
+# Duas Rodas
+Projeto para viciados em duas rodas
 
 ## Atividade
 - Implementar mais seções que achar necessário.
@@ -19,5 +19,11 @@ npm install
 ## Execução
 - Na raiz do projeto, executar o comando:
 ```
-npm run dev
+npm run dev (para manutenção)
+
+ - Para apenas a visualização 
+
+ npm run build 
+ 
+ Acessar o index.html dentro da pasta dist
 ```
