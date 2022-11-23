@@ -167,18 +167,16 @@ header{
     margin: 20px auto;
 }
     .button_vitrine{
-    display: inline-block;
-    width: 90%;
-}
-    .button_vitrine:hover{
-    background-color: #000;
-    color: #fff;
-    cursor:initial;
-}
-}
-}
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        width: fit-content;
+        text-align: center;
+        padding: 10px 20px;
 
-
+    }
+}
+}
 .container_footer p{
     text-align: center;
     line-height: 2rem;
@@ -195,6 +193,3 @@ header{
     margin: 50px auto;
     font-size: 1.5rem;
 }
-
-
-
